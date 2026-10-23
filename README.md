@@ -1,2 +1,7 @@
-# hugo_webpage
-HUGO webpage
+# HUGO webpage
+
+**why HUGO?**:
+Hugo is a static site generator written in Go
+
+
+https://github.com/gohugoio/hugo
