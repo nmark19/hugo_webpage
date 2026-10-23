@@ -1,0 +1,42 @@
+baseURL = "https://marknemet.com"
+languageCode = "en"
+title = "Mark Nemet"
+theme = "PaperMod"
+
+defaultContentLanguage = "en"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  
+  [params.profileMode]
+    enabled = true
+    title = "Mark Nemet"
+	subtitle = '''
+	Embedded Software Engineer
+	Hungary
+	'''
+    imageUrl = "profpicture.jpg"      # static/ 
+    imageWidth = 220
+    imageHeight = 220
+    imageTitle = "Profile picture"
+
+    [[params.profileMode.buttons]]
+      name = "Post"
+      url = "/posts"
+
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about"
+	  
+	[[params.profileMode.buttons]]
+      name = "Status"
+      url = "https://status.marknemet.com"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/nmark19"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/mark-nemet"
